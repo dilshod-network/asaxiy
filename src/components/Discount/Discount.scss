@@ -1,0 +1,25 @@
+.discount {
+  position: relative;
+  img {
+    border-radius: 1rem;
+  }
+  &__product {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    .item {
+      background-color: #008cff;
+      color: #fff;
+      border-radius: 0.5rem !important;
+      padding: 3px 7px;
+    }
+    .seperater {
+      color: #fff;
+    }
+  }
+}

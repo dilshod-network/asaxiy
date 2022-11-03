@@ -1,0 +1,15 @@
+.daily {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+  margin-bottom: 30px;
+  .carousel {
+    width: 75%;
+    padding-right: 1rem;
+  }
+  .discount {
+    width: 25%;
+    border-radius: 1rem;
+  }
+}
